@@ -1,0 +1,87 @@
+form {
+    width: 500px;
+    height: auto;
+    background-color: rgb(117, 74, 43);
+    margin: 0 auto;
+    margin-top: 155px;
+    border-radius: 50px;
+    padding: 45px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logo_agendamento {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+input[type="email"], input[type="nome"], input[type="tel"] {
+    width: 100%;
+    height: 10%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    box-sizing: border-box;
+} 
+input[type="data"], input[type="horario"] {
+    width: 100%;
+    height: 10%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    box-sizing: border-box;
+} 
+button {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    color: seashell;
+    font-family: Cormorant Garamond;
+    font-size: 26px;
+    font-weight: 900;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(54, 35, 22), rgb(54, 35, 22));
+    outline: none;
+    box-sizing: border-box;
+}
+
+label {
+    font-family: Lexend;
+}
+.titulo__form {
+    font-family: Lexend;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+.texto__form {
+    margin-top: 14px;
+    margin-bottom: 32px;
+    font-family: Cormorant Garamond;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .logo_agendamento {
+        width: 300px;
+        height: 300px;
+    }
+    
+    form {
+        margin-top: 145px;
+    }
+}

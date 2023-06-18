@@ -1,0 +1,80 @@
+footer {
+    color: seashell;
+    height: 600px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 10px solid white;
+}
+
+.footer_texto {
+    font-family: Cormorant Garamond;
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 10px;
+}
+
+.localizacao {
+    display: flex;
+    align-items: center;
+}
+  
+.icone_localizacao {
+    margin-left: 30px;
+    height: 50px;
+}
+
+.telefone {
+    display: flex;
+    align-items: center;
+}
+  
+.icone_telefone {
+    margin-left: 40px;
+    margin-right: 10px;
+    height: 35px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+  
+.icone_email {
+    margin-left: 38px;
+    margin-right: 10px;
+    height: 35px;
+}
+
+.redes_texto {
+    margin-left: 65px;
+    font-family: Ormorant Garamond;
+    font-size: 30px;
+}
+
+.icone_redes {
+    margin: 35px;
+    height: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+footer {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.footer_texto {
+    font-size: 24px;
+}
+
+.redes_texto {
+    margin-top: 80px;
+    margin-left: 95px;
+    font-size: 24px;
+}
+  }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - BarberShop</title>
+    <link rel="icon" href="./Imagens/5029057.png">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+</head>
+
+<body>
+    <nav>
+              
+        <ul class="menu">
+            <a href="index.html">
+                <img class="logo_agendamento" src="./Imagens/BarberShop.svg" alt="BarberLogo">
+            </a>
+        </ul>
+    </nav>
+
+    <section class="area__formulario">
+        <form action="" id="formulario">
+            <h2 class="titulo__form">Agendamento de Atendimento</h2>
+            <p class="texto__form">Preencha os campos abaixo para agendar seu atendimento</p>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="nome" placeholder="Nome" required>
+    
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" placeholder="E-mail" required>
+    
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" type="tel" placeholder="Telefone" required>
+    
+            <label for="data">Data:</label>
+            <input id="data" type="data" placeholder="Data" required>
+    
+            <label for="horario">Horário:</label>
+            <input id="horario" type="horario" placeholder="Horário"required>
+    
+            <button type="submit">Agendar</button>
+        </form>
+    </section>
+    
+                    <script src="./JS/firebase-config.js"></script>
+</body>
+</html>

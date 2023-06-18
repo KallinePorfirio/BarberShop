@@ -1,0 +1,112 @@
+.servicos {
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: rgb(117, 74, 43);
+    width: 100%;
+    height: 900px;
+    border-bottom: 10px solid rgb(54, 35, 22);
+}
+
+.titulo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.titulo_container .servicos_texto {
+    color: seashell;
+    font-family: Lexend;
+    font-size: 50px;
+    text-align: center;
+    margin: 70px;
+    border-bottom: 5px solid white;
+}
+
+.container_servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servico {
+    background-color: rgb(54, 35, 22);
+    height: 250px;
+    width: calc(25.25%);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+}
+
+.servico h1 {
+    color: seashell;
+    font-family: Cormorant Garamond;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    margin: 20px;
+}
+
+.servico h2 {
+    color: seashell;
+    font-size: 26px;
+    text-align: center;
+}
+
+.btn_saibaMais {
+    background-color: seashell;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.btn_saibaMais h3 {
+    font-family: Cormorant Garamond;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .titulo_container {
+      margin-top: 50px;
+    }
+    
+    .titulo_container .servicos_texto {
+      font-size: 36px;
+      margin: 30px;
+    }
+    
+    .container_servicos {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      height: auto;
+      align-items: center;
+    }
+    
+    .banner {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+    
+    .servico {
+      width: 300px;
+    }
+  }
